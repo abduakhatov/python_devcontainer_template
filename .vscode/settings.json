@@ -1,4 +1,21 @@
 {
     "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json": "file:///workspaces/sales/docker-compose.yaml"
+    },
+    "python.linting.pylintEnabled": false,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": [
+        "~/.local/lib/python3.9/site-packages/*"
+    ],
+    "python.autoComplete.extraPaths": [
+        "~/.local/lib/python3.9/site-packages/"
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "peacock.remoteColor": "#215732"
 }

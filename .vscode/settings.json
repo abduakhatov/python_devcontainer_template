@@ -16,6 +16,5 @@
         "tests"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "peacock.remoteColor": "#215732"
+    "python.testing.pytestEnabled": true
 }
